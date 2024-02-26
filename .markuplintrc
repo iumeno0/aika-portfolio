@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "markuplint:recommended",
+    "markuplint:recommended-react"
+  ],
+  "parser": {
+    ".tsx$": "@markuplint/jsx-parser"
+  },
+  "specs": {
+    ".tsx$": "@markuplint/react-spec"
+  },
+  "excludeFiles": [
+    "node_modules",
+    "./**/*.{test,spec,stories}.tsx"
+  ],
+  "rules": {
+    "no-hard-code-id": false,
+    "label-has-control": false
+  },
+  "nodeRules": [
+    {
+      "selector": "img",
+      "rules": {
+        "required-attr": [
+          "alt"
+        ]
+      }
+    }
+  ]
+}

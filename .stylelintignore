@@ -1,0 +1,11 @@
+node_modules/
+.next/
+dist
+.gitignore
+**/*.js
+**/*.cjs
+**/*.mjs
+**/*.jsx
+**/*.ts
+**/*.tsx
+**/*.svg
