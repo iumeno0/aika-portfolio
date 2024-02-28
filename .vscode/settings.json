@@ -19,6 +19,5 @@
   },
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "prettier.configPath": ".prettierrc",
-  "tailwindCSS.rootFontSize": 10,
   "typescript.preferences.importModuleSpecifier": "non-relative"
 }
