@@ -27,10 +27,10 @@ export const Hero: FC<Props> = () => {
 
         {/* 右 */}
         <Image
-          alt="heroImage"
+          alt="profile"
           className="z-10 rounded-full"
           height={400}
-          src={'/assets/heroImage.png'}
+          src={'/assets/profile.png'}
           width={400}
         />
       </div>
